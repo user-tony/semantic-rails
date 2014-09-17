@@ -1,13 +1,3 @@
-/*
- * # Semantic - Breadcrumb
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Breadcrumb
 *******************************/
@@ -64,16 +54,6 @@
   font-size: 1.3em;
 }
 
-/*
- * # Semantic - Form
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Standard
 *******************************/
@@ -156,7 +136,7 @@
   border: 1px solid rgba(0, 0, 0, 0.15);
   outline: none;
   color: rgba(0, 0, 0, 0.7);
-  border-radius: 0.3125em;
+  border-radius: 0.2125em;
   -webkit-transition: background-color 0.3s ease-out, -webkit-box-shadow 0.2s ease, border-color 0.2s ease;
   -moz-transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
   transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -174,7 +154,7 @@
   line-height: 1.33;
   min-height: 8em;
   height: 12em;
-  max-height: 24em;
+  max-height: 28em;
   resize: vertical;
 }
 .ui.form textarea,
@@ -422,7 +402,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url(loader-large.gif) no-repeat 50% 50%;
+  /*background: rgba(255, 255, 255, 0.8) url(loader-large.gif) no-repeat 50% 50%;*/
   visibility: visible;
 }
 /*******************************
@@ -711,16 +691,6 @@
   font-size: 1.125em;
 }
 
-/*
- * # Semantic - Grid
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Grid
 *******************************/
@@ -1464,19 +1434,6 @@ body > .ui.grid {
   }
 }
 
-/*
- * # Semantic - Menu
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-/*******************************
-            Standard
-*******************************/
 /*--------------
       Menu
 ---------------*/
@@ -2879,16 +2836,6 @@ body > .ui.grid {
   width: 18rem;
 }
 
-/*
- * # Semantic - Message
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Message
 *******************************/
@@ -3136,16 +3083,6 @@ body > .ui.grid {
   font-size: 2em;
 }
 
-/*
- * # Semantic - Table
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Table
 *******************************/
@@ -3829,16 +3766,6 @@ i.massive.basic.fa {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Button
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Button
 *******************************/
@@ -5025,17 +4952,6 @@ i.massive.basic.fa {
 .ui.vertical.buttons .gigantic.button:last-child {
   border-radius: 0px 0px 0.25em 0.25em;
 }
-
-/*
- * # Semantic - Divider
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Divider
 *******************************/
@@ -5181,16 +5097,6 @@ i.massive.basic.fa {
   margin-bottom: 2rem;
 }
 
-/*
- * # Semantic - Header
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Header
 *******************************/
@@ -5500,36 +5406,36 @@ h5.ui.header {
 	-moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the icon container */
-.fa-lg {
+i.fa-lg {
 	font-size: 1.33333333em;
 	line-height: 0.75em;
 	vertical-align: -15%;
 }
-.fa-2x {
+i.fa-2x {
 	font-size: 2em;
 }
-.fa-3x {
+i.fa-3x {
 	font-size: 3em;
 }
-.fa-4x {
+i.fa-4x {
 	font-size: 4em;
 }
-.fa-5x {
+i.fa-5x {
 	font-size: 5em;
 }
-.fa-fw {
+i.fa-fw {
 	width: 1.28571429em;
 	text-align: center;
 }
-.fa-ul {
+i.fa-ul {
 	padding-left: 0;
 	margin-left: 2.14285714em;
 	list-style-type: none;
 }
-.fa-ul > li {
+i.fa-ul > li {
 	position: relative;
 }
-.fa-li {
+i.fa-li {
 	position: absolute;
 	left: -2.14285714em;
 	width: 2.14285714em;
@@ -7402,16 +7308,6 @@ i.massive.fa {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Image
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Image
 *******************************/
@@ -7549,16 +7445,6 @@ img.ui.image {
   margin: 0em 0.25em 0.5em;
 }
 
-/*
- * # Semantic - Input
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Standard
 *******************************/
@@ -7572,7 +7458,7 @@ img.ui.image {
 }
 .ui.input input {
   width: 100%;
-  font-family: "Helvetica Neue", "Helvetica", Arial;
+  font-family: 'Helvetica Neue',Tahoma,Arial,"Hiragino Sans GB",STXihei,'Microsoft yahei',SimSun,sans-serif;
   margin: 0em;
   padding: 0.65em 1em;
   font-size: 1em;
@@ -7801,16 +7687,6 @@ img.ui.image {
   font-size: 1.5em;
 }
 
-/*
- * # Semantic - Label
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Label
 *******************************/
@@ -8586,16 +8462,6 @@ a.ui.teal.label:hover:before {
   font-size: 1rem;
 }
 
-/*
- * # Semantic - Loader
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Loader
 *******************************/
@@ -8739,16 +8605,6 @@ a.ui.teal.label:hover:before {
   display: inline-block;
 }
 
-/*
- * # Semantic - Progress Bar
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
          Progress Bar
 *******************************/
@@ -8986,16 +8842,6 @@ a.ui.teal.label:hover:before {
   height: 14px;
 }
 
-/*
- * # Semantic - Reveal
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Reveal
 *******************************/
@@ -9282,16 +9128,6 @@ a.ui.teal.label:hover:before {
   transition-delay: 0s !important;
 }
 
-/*
- * # Semantic - Segment
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Segment
 *******************************/
@@ -9665,17 +9501,6 @@ a.ui.teal.label:hover:before {
 .ui.segment.bottom.attached:last-child {
   margin-bottom: 0em;
 }
-
-/*
- * # Semantic - Steps
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Step
 *******************************/
@@ -9954,16 +9779,6 @@ a.ui.teal.label:hover:before {
   font-weight: bold;
 }
 
-/*
- * # Semantic - Accordion
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Accordion
 *******************************/
@@ -10103,16 +9918,6 @@ a.ui.teal.label:hover:before {
   width: 100%;
 }
 
-/*
- * # Semantic - Chat Room
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Chat Room
 *******************************/
@@ -10349,16 +10154,6 @@ a.ui.teal.label:hover:before {
   height: 40px;
 }
 
-/*
- * # Semantic - Checkbox
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Checkbox
 *******************************/
@@ -10688,16 +10483,6 @@ a.ui.teal.label:hover:before {
   font-size: 1.5em;
 }
 
-/*
- * # Semantic - Dimmer
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Dimmer
 *******************************/
@@ -10847,16 +10632,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   background-color: rgba(255, 255, 255, 0.85);
 }
 
-/*
- * # Semantic - Dropdown
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Dropdown
 *******************************/
@@ -11364,16 +11139,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
       transform: rotate(135deg);
 }
 
-/*
- * # Semantic - Modal
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Modal
 *******************************/
@@ -11617,16 +11382,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   }
 }
 
-/*
- * # Semantic - Nag
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Nag
 *******************************/
@@ -11735,17 +11490,6 @@ a.ui.nag {
 .ui.nags .nag {
   border-radius: 0px;
 }
-
-/*
- * # Semantic - Popup
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Popup
 *******************************/
@@ -11948,16 +11692,6 @@ a.ui.nag {
   box-shadow: none;
 }
 
-/*
- * # Semantic - Rating
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Rating
 *******************************/
@@ -12078,16 +11812,6 @@ a.ui.nag {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Search
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Search
 *******************************/
@@ -12288,16 +12012,6 @@ a.ui.nag {
   font-size: 11px;
 }
 
-/*
- * # Semantic - Shape
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
               Shape
 *******************************/
@@ -12425,16 +12139,6 @@ a.ui.nag {
   display: block;
 }
 
-/*
- * # Semantic - Sidebar
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Sidebar
 *******************************/
@@ -12612,16 +12316,6 @@ body.pushed.scrolling.ui.dimmable {
   margin-top: -40px !important;
 }
 
-/*
- * # Semantic - Tab
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            UI Tabs
 *******************************/
@@ -13894,16 +13588,6 @@ body.pushed.scrolling.ui.dimmable {
   }
 }
 
-/*
- * # Semantic - Video
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Video
 *******************************/
@@ -13973,20 +13657,6 @@ body.pushed.scrolling.ui.dimmable {
   display: block;
 }
 
-/*
- * # Semantic Comment View
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 17 2014
- */
-/*******************************
-            Standard
-*******************************/
 /*--------------
     Comments
 ---------------*/
@@ -14082,7 +13752,7 @@ body.pushed.scrolling.ui.dimmable {
   max-width: 40em;
 }
 .ui.comments .reply.form textarea {
-  height: 12em;
+  height: 8em;
 }
 /*--------------------
     Nested Comments
@@ -14275,17 +13945,6 @@ body.pushed.scrolling.ui.dimmable {
   padding: 0.25em 0.5em;
 }
 
-/*
- * # Semantic Item View
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 17 2014
- */
 /*******************************
             Standard
 *******************************/
@@ -14322,7 +13981,6 @@ body.pushed.scrolling.ui.dimmable {
   width: 316px;
   min-height: 375px;
   margin: 0em 0.5em 2.5em;
-  padding: 0em;
   background-color: #FFFFFF;
   line-height: 1.2;
   font-size: 1em;
@@ -14832,17 +14490,6 @@ body.pushed.scrolling.ui.dimmable {
   clear: left;
 }
 
-/*
- * # Semantic List - Flat
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 26 2014
- */
 /*******************************
             List
 *******************************/
@@ -15377,16 +15024,6 @@ ol.ui.horizontal.list li:before,
   font-size: 1.5rem;
 }
 
-/*
- * # Statistic
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: Aug 20, 2014
- */
 /*******************************
            Statistic
 *******************************/
