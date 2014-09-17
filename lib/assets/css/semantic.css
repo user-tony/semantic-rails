@@ -2855,7 +2855,7 @@ body > .ui.grid {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  border-radius: 0.325em 0.325em 0.325em 0.325em;
+  border-radius: 0.225em 0.225em 0.225em 0.225em;
 }
 .ui.message:first-child {
   margin-top: 0em;
@@ -2968,7 +2968,7 @@ body > .ui.grid {
   margin-left: -1px;
   margin-right: -1px;
   margin-bottom: -1px;
-  border-radius: 0.325em 0.325em 0em 0em;
+  border-radius: 0.225em 0.225em 0em 0em;
   -webkit-box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset;
 }
@@ -2978,7 +2978,7 @@ body > .ui.grid {
 }
 .ui.bottom.attached.message {
   margin-top: -1px;
-  border-radius: 0em 0em 0.325em 0.325em;
+  border-radius: 0em 0em 0.225em 0.225em;
 }
 .ui.bottom.attached.message:not(:last-child) {
   margin-bottom: 1em;
@@ -7700,7 +7700,7 @@ img.ui.image {
   color: rgba(0, 0, 0, 0.65);
   text-transform: uppercase;
   font-weight: normal;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -7791,7 +7791,7 @@ a.ui.label {
   height: 2.25em;
   margin: -0.4em 0.8em -0.4em -0.8em;
   vertical-align: top;
-  border-radius: 0.325em 0em 0em 0.325em;
+  border-radius: 0.225em 0em 0em 0.225em;
 }
 /*******************************
              States
@@ -10666,7 +10666,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   text-shadow: none;
   -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
   -webkit-transition: opacity 0.2s ease;
   -moz-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
@@ -10710,7 +10710,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   top: 0% !important;
   left: 100% !important;
   margin: 0em !important;
-  border-radius: 0 0.325em 0.325em 0em !important;
+  border-radius: 0 0.225em 0.225em 0em !important;
 }
 .ui.dropdown .menu .menu:after {
   display: none;
@@ -10926,7 +10926,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   overflow-y: auto;
   -webkit-box-shadow: 0px 1px 0px 1px #E0E0E0;
   box-shadow: 0px 1px 0px 1px #E0E0E0;
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
 }
 .ui.selection.dropdown .menu:after,
 .ui.selection.dropdown .menu:before {
@@ -10953,7 +10953,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.selection.dropdown.error .menu {
   -webkit-box-shadow: 0px 1px 0px 1px #E7BEBE;
   box-shadow: 0px 1px 0px 1px #E7BEBE;
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
 }
 /* Menu Item Active */
 .ui.selection.dropdown.error .menu .active.item {
@@ -11024,7 +11024,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.inline.dropdown .menu {
   cursor: auto;
   margin-top: 0.25em;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 /*--------------
     Floating
@@ -11033,7 +11033,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   left: 0;
   right: auto;
   margin-top: 0.5em !important;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 /*--------------
      Pointing
@@ -11041,7 +11041,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.pointing.dropdown .menu {
   top: 100%;
   margin-top: 0.75em;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 .ui.pointing.dropdown .menu:after {
   display: block;
@@ -11186,7 +11186,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   padding: 1.5rem 2rem;
   font-size: 1.6em;
   font-weight: bold;
-  border-radius: 0.325em 0.325em 0px 0px;
+  border-radius: 0.225em 0.225em 0px 0px;
 }
 /*--------------
      Content
