@@ -1,13 +1,3 @@
-/*
- * # Semantic - Breadcrumb
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Breadcrumb
 *******************************/
@@ -64,16 +54,6 @@
   font-size: 1.3em;
 }
 
-/*
- * # Semantic - Form
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Standard
 *******************************/
@@ -156,7 +136,7 @@
   border: 1px solid rgba(0, 0, 0, 0.15);
   outline: none;
   color: rgba(0, 0, 0, 0.7);
-  border-radius: 0.3125em;
+  border-radius: 0.2125em;
   -webkit-transition: background-color 0.3s ease-out, -webkit-box-shadow 0.2s ease, border-color 0.2s ease;
   -moz-transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
   transition: background-color 0.3s ease-out, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -174,7 +154,7 @@
   line-height: 1.33;
   min-height: 8em;
   height: 12em;
-  max-height: 24em;
+  max-height: 28em;
   resize: vertical;
 }
 .ui.form textarea,
@@ -422,7 +402,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url(loader-large.gif) no-repeat 50% 50%;
+  /*background: rgba(255, 255, 255, 0.8) url(loader-large.gif) no-repeat 50% 50%;*/
   visibility: visible;
 }
 /*******************************
@@ -711,16 +691,6 @@
   font-size: 1.125em;
 }
 
-/*
- * # Semantic - Grid
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Grid
 *******************************/
@@ -1464,19 +1434,6 @@ body > .ui.grid {
   }
 }
 
-/*
- * # Semantic - Menu
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
-/*******************************
-            Standard
-*******************************/
 /*--------------
       Menu
 ---------------*/
@@ -2454,8 +2411,8 @@ body > .ui.grid {
 }
 .ui.menu .purple.active.item,
 .ui.purple.menu .active.item {
-  border-color: #171f43 !important;
-  color: #171f43 !important;
+  border-color: #202d62 !important;
+  color: #202d62 !important;
 }
 .ui.menu .orange.active.item,
 .ui.orange.menu .active.item {
@@ -2617,7 +2574,7 @@ body > .ui.grid {
   background-color: #8AD7F6;
 }
 .ui.inverted.purple.menu {
-  background-color: #171f43;
+  background-color: #202d62;
 }
 .ui.inverted.purple.pointing.menu .active.item:after {
   background-color: #7771A0;
@@ -2879,16 +2836,6 @@ body > .ui.grid {
   width: 18rem;
 }
 
-/*
- * # Semantic - Message
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Message
 *******************************/
@@ -2908,7 +2855,7 @@ body > .ui.grid {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  border-radius: 0.325em 0.325em 0.325em 0.325em;
+  border-radius: 0.225em 0.225em 0.225em 0.225em;
 }
 .ui.message:first-child {
   margin-top: 0em;
@@ -3021,7 +2968,7 @@ body > .ui.grid {
   margin-left: -1px;
   margin-right: -1px;
   margin-bottom: -1px;
-  border-radius: 0.325em 0.325em 0em 0em;
+  border-radius: 0.225em 0.225em 0em 0em;
   -webkit-box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0em 0em 0em 1px rgba(0, 0, 0, 0.1) inset;
 }
@@ -3031,7 +2978,7 @@ body > .ui.grid {
 }
 .ui.bottom.attached.message {
   margin-top: -1px;
-  border-radius: 0em 0em 0.325em 0.325em;
+  border-radius: 0em 0em 0.225em 0.225em;
 }
 .ui.bottom.attached.message:not(:last-child) {
   margin-bottom: 1em;
@@ -3136,16 +3083,6 @@ body > .ui.grid {
   font-size: 2em;
 }
 
-/*
- * # Semantic - Table
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Table
 *******************************/
@@ -3767,7 +3704,7 @@ i.red.basic.fa {
   color: #D95C5C !important;
 }
 i.purple.basic.fa {
-  color: #171f43 !important;
+  color: #202d62 !important;
 }
 i.teal.basic.fa {
   color: #00B5AD !important;
@@ -3792,7 +3729,7 @@ i.inverted.red.basic.fa {
   color: #FFFFFF !important;
 }
 i.inverted.purple.basic.fa {
-  background-color: #171f43 !important;
+  background-color: #202d62 !important;
   color: #FFFFFF !important;
 }
 i.inverted.teal.basic.fa {
@@ -3829,16 +3766,6 @@ i.massive.basic.fa {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Button
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Button
 *******************************/
@@ -4894,7 +4821,7 @@ i.massive.basic.fa {
 /*--- Purple ---*/
 .ui.purple.buttons .button,
 .ui.purple.button {
-  background-color: #171f43;
+  background-color: #202d62;
   color: #FFFFFF;
 }
 .ui.purple.buttons .button:hover,
@@ -5025,17 +4952,6 @@ i.massive.basic.fa {
 .ui.vertical.buttons .gigantic.button:last-child {
   border-radius: 0px 0px 0.25em 0.25em;
 }
-
-/*
- * # Semantic - Divider
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Divider
 *******************************/
@@ -5181,16 +5097,6 @@ i.massive.basic.fa {
   margin-bottom: 2rem;
 }
 
-/*
- * # Semantic - Header
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Header
 *******************************/
@@ -5338,7 +5244,7 @@ h5.ui.header {
   color: #D95C5C !important;
 }
 .ui.purple.header {
-  color: #171f43 !important;
+  color: #202d62 !important;
 }
 .ui.teal.header {
   color: #00B5AD !important;
@@ -5356,7 +5262,7 @@ h5.ui.header {
   border-bottom: 3px solid #D95C5C;
 }
 .ui.purple.dividing.header {
-  border-bottom: 3px solid #171f43;
+  border-bottom: 3px solid #202d62;
 }
 .ui.teal.dividing.header {
   border-bottom: 3px solid #00B5AD;
@@ -5390,7 +5296,7 @@ h5.ui.header {
   color: #FFFFFF !important;
 }
 .ui.inverted.purple.header {
-  background-color: #171f43 !important;
+  background-color: #202d62 !important;
   color: #FFFFFF !important;
 }
 .ui.inverted.teal.header {
@@ -5479,58 +5385,57 @@ h5.ui.header {
 }
 
 /*!
- *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('fontawesome-webfont.eot?v=4.1.0');
-	src: url('fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('fontawesome-webfont.woff?v=4.1.0') format('woff'), url('fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+	src: url('fontawesome-webfont.eot?v=4.2.0');
+	src: url('fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 .fa {
 	display: inline-block;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the icon container */
-.fa-lg {
+i.fa-lg {
 	font-size: 1.33333333em;
 	line-height: 0.75em;
 	vertical-align: -15%;
 }
-.fa-2x {
+i.fa-2x {
 	font-size: 2em;
 }
-.fa-3x {
+i.fa-3x {
 	font-size: 3em;
 }
-.fa-4x {
+i.fa-4x {
 	font-size: 4em;
 }
-.fa-5x {
+i.fa-5x {
 	font-size: 5em;
 }
-.fa-fw {
+i.fa-fw {
 	width: 1.28571429em;
 	text-align: center;
 }
-.fa-ul {
+i.fa-ul {
 	padding-left: 0;
 	margin-left: 2.14285714em;
 	list-style-type: none;
 }
-.fa-ul > li {
+i.fa-ul > li {
 	position: relative;
 }
-.fa-li {
+i.fa-li {
 	position: absolute;
 	left: -2.14285714em;
 	width: 2.14285714em;
@@ -5558,36 +5463,20 @@ h5.ui.header {
 	margin-left: .3em;
 }
 .fa-spin {
-	-webkit-animation: spin 2s infinite linear;
-	-moz-animation: spin 2s infinite linear;
-	-o-animation: spin 2s infinite linear;
-	animation: spin 2s infinite linear;
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear;
 }
-@-moz-keyframes spin {
-	0% {
-		-moz-transform: rotate(0deg);
-	}
-	100% {
-		-moz-transform: rotate(359deg);
-	}
-}
-@-webkit-keyframes spin {
+@-webkit-keyframes fa-spin {
 	0% {
 		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
 	100% {
 		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
 	}
 }
-@-o-keyframes spin {
-	0% {
-		-o-transform: rotate(0deg);
-	}
-	100% {
-		-o-transform: rotate(359deg);
-	}
-}
-@keyframes spin {
+@keyframes fa-spin {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
@@ -5600,42 +5489,39 @@ h5.ui.header {
 .fa-rotate-90 {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
 .fa-rotate-180 {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
 .fa-rotate-270 {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	-webkit-transform: rotate(270deg);
-	-moz-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
-	-o-transform: rotate(270deg);
 	transform: rotate(270deg);
 }
 .fa-flip-horizontal {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
 	-webkit-transform: scale(-1, 1);
-	-moz-transform: scale(-1, 1);
 	-ms-transform: scale(-1, 1);
-	-o-transform: scale(-1, 1);
 	transform: scale(-1, 1);
 }
 .fa-flip-vertical {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 	-webkit-transform: scale(1, -1);
-	-moz-transform: scale(1, -1);
 	-ms-transform: scale(1, -1);
-	-o-transform: scale(1, -1);
 	transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+	filter: none;
 }
 .fa-stack {
 	position: relative;
@@ -5702,6 +5588,8 @@ h5.ui.header {
 .fa-check:before {
 	content: "\f00c";
 }
+.fa-remove:before,
+.fa-close:before,
 .fa-times:before {
 	content: "\f00d";
 }
@@ -6031,7 +5919,8 @@ h5.ui.header {
 .fa-arrows-h:before {
 	content: "\f07e";
 }
-.fa-bar-chart-o:before {
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
 	content: "\f080";
 }
 .fa-twitter-square:before {
@@ -6860,7 +6749,6 @@ h5.ui.header {
 .fa-digg:before {
 	content: "\f1a6";
 }
-.fa-pied-piper-square:before,
 .fa-pied-piper:before {
 	content: "\f1a7";
 }
@@ -6977,6 +6865,7 @@ h5.ui.header {
 	content: "\f1cc";
 }
 .fa-life-bouy:before,
+.fa-life-buoy:before,
 .fa-life-saver:before,
 .fa-support:before,
 .fa-life-ring:before {
@@ -7044,6 +6933,130 @@ h5.ui.header {
 .fa-bomb:before {
 	content: "\f1e2";
 }
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+	content: "\f1e3";
+}
+.fa-tty:before {
+	content: "\f1e4";
+}
+.fa-binoculars:before {
+	content: "\f1e5";
+}
+.fa-plug:before {
+	content: "\f1e6";
+}
+.fa-slideshare:before {
+	content: "\f1e7";
+}
+.fa-twitch:before {
+	content: "\f1e8";
+}
+.fa-yelp:before {
+	content: "\f1e9";
+}
+.fa-newspaper-o:before {
+	content: "\f1ea";
+}
+.fa-wifi:before {
+	content: "\f1eb";
+}
+.fa-calculator:before {
+	content: "\f1ec";
+}
+.fa-paypal:before {
+	content: "\f1ed";
+}
+.fa-google-wallet:before {
+	content: "\f1ee";
+}
+.fa-cc-visa:before {
+	content: "\f1f0";
+}
+.fa-cc-mastercard:before {
+	content: "\f1f1";
+}
+.fa-cc-discover:before {
+	content: "\f1f2";
+}
+.fa-cc-amex:before {
+	content: "\f1f3";
+}
+.fa-cc-paypal:before {
+	content: "\f1f4";
+}
+.fa-cc-stripe:before {
+	content: "\f1f5";
+}
+.fa-bell-slash:before {
+	content: "\f1f6";
+}
+.fa-bell-slash-o:before {
+	content: "\f1f7";
+}
+.fa-trash:before {
+	content: "\f1f8";
+}
+.fa-copyright:before {
+	content: "\f1f9";
+}
+.fa-at:before {
+	content: "\f1fa";
+}
+.fa-eyedropper:before {
+	content: "\f1fb";
+}
+.fa-paint-brush:before {
+	content: "\f1fc";
+}
+.fa-birthday-cake:before {
+	content: "\f1fd";
+}
+.fa-area-chart:before {
+	content: "\f1fe";
+}
+.fa-pie-chart:before {
+	content: "\f200";
+}
+.fa-line-chart:before {
+	content: "\f201";
+}
+.fa-lastfm:before {
+	content: "\f202";
+}
+.fa-lastfm-square:before {
+	content: "\f203";
+}
+.fa-toggle-off:before {
+	content: "\f204";
+}
+.fa-toggle-on:before {
+	content: "\f205";
+}
+.fa-bicycle:before {
+	content: "\f206";
+}
+.fa-bus:before {
+	content: "\f207";
+}
+.fa-ioxhost:before {
+	content: "\f208";
+}
+.fa-angellist:before {
+	content: "\f209";
+}
+.fa-cc:before {
+	content: "\f20a";
+}
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+	content: "\f20b";
+}
+.fa-meanpath:before {
+	content: "\f20c";
+}
+
 
 /*******************************
              Types
@@ -7223,7 +7236,7 @@ i.red.fa {
   color: #D95C5C !important;
 }
 i.purple.fa {
-  color: #171f43 !important;
+  color: #202d62 !important;
 }
 i.orange.fa {
   color: #F05940 !important;
@@ -7254,7 +7267,7 @@ i.inverted.red.fa {
   color: #FFFFFF !important;
 }
 i.inverted.purple.fa {
-  background-color: #171f43 !important;
+  background-color: #202d62 !important;
   color: #FFFFFF !important;
 }
 i.inverted.orange.fa {
@@ -7295,16 +7308,6 @@ i.massive.fa {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Image
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Image
 *******************************/
@@ -7442,16 +7445,6 @@ img.ui.image {
   margin: 0em 0.25em 0.5em;
 }
 
-/*
- * # Semantic - Input
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Standard
 *******************************/
@@ -7465,7 +7458,7 @@ img.ui.image {
 }
 .ui.input input {
   width: 100%;
-  font-family: "Helvetica Neue", "Helvetica", Arial;
+  font-family: 'Helvetica Neue',Tahoma,Arial,"Hiragino Sans GB",STXihei,'Microsoft yahei',SimSun,sans-serif;
   margin: 0em;
   padding: 0.65em 1em;
   font-size: 1em;
@@ -7694,16 +7687,6 @@ img.ui.image {
   font-size: 1.5em;
 }
 
-/*
- * # Semantic - Label
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Label
 *******************************/
@@ -7717,7 +7700,7 @@ img.ui.image {
   color: rgba(0, 0, 0, 0.65);
   text-transform: uppercase;
   font-weight: normal;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -7808,7 +7791,7 @@ a.ui.label {
   height: 2.25em;
   margin: -0.4em 0.8em -0.4em -0.8em;
   vertical-align: top;
-  border-radius: 0.325em 0em 0em 0.325em;
+  border-radius: 0.225em 0em 0em 0.225em;
 }
 /*******************************
              States
@@ -8218,14 +8201,14 @@ a.ui.blue.label:hover:before {
 /*--- Purple ---*/
 .ui.purple.labels .label,
 .ui.purple.label {
-  background-color: #171f43 !important;
-  border-color: #171f43 !important;
+  background-color: #202d62 !important;
+  border-color: #202d62 !important;
   color: #FFFFFF !important;
 }
 .ui.labels .purple.label:before,
 .ui.purple.labels .label:before,
 .ui.purple.label:before {
-  background-color: #171f43 !important;
+  background-color: #202d62 !important;
 }
 /* Hover */
 a.ui.purple.labels .label:hover,
@@ -8479,16 +8462,6 @@ a.ui.teal.label:hover:before {
   font-size: 1rem;
 }
 
-/*
- * # Semantic - Loader
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Loader
 *******************************/
@@ -8632,16 +8605,6 @@ a.ui.teal.label:hover:before {
   display: inline-block;
 }
 
-/*
- * # Semantic - Progress Bar
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
          Progress Bar
 *******************************/
@@ -8820,7 +8783,7 @@ a.ui.teal.label:hover:before {
   background-color: #EF4D6D;
 }
 .ui.purple.progress .bar {
-  background-color: #171f43;
+  background-color: #202d62;
 }
 .ui.teal.progress .bar {
   background-color: #00B5AD;
@@ -8879,16 +8842,6 @@ a.ui.teal.label:hover:before {
   height: 14px;
 }
 
-/*
- * # Semantic - Reveal
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Reveal
 *******************************/
@@ -9175,16 +9128,6 @@ a.ui.teal.label:hover:before {
   transition-delay: 0s !important;
 }
 
-/*
- * # Semantic - Segment
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Segment
 *******************************/
@@ -9406,7 +9349,7 @@ a.ui.teal.label:hover:before {
   border-top: 0.2em solid #ffcc00;
 }
 .ui.purple.segment {
-  border-top: 0.2em solid #171f43;
+  border-top: 0.2em solid #202d62;
 }
 .ui.teal.segment {
   border-top: 0.2em solid #00B5AD;
@@ -9439,7 +9382,7 @@ a.ui.teal.label:hover:before {
   color: #FFFFFF !important;
 }
 .ui.inverted.purple.segment {
-  background-color: #171f43 !important;
+  background-color: #202d62 !important;
   color: #FFFFFF !important;
 }
 .ui.inverted.teal.segment {
@@ -9558,17 +9501,6 @@ a.ui.teal.label:hover:before {
 .ui.segment.bottom.attached:last-child {
   margin-bottom: 0em;
 }
-
-/*
- * # Semantic - Steps
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Step
 *******************************/
@@ -9847,16 +9779,6 @@ a.ui.teal.label:hover:before {
   font-weight: bold;
 }
 
-/*
- * # Semantic - Accordion
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Accordion
 *******************************/
@@ -9996,16 +9918,6 @@ a.ui.teal.label:hover:before {
   width: 100%;
 }
 
-/*
- * # Semantic - Chat Room
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Chat Room
 *******************************/
@@ -10242,16 +10154,6 @@ a.ui.teal.label:hover:before {
   height: 40px;
 }
 
-/*
- * # Semantic - Checkbox
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Checkbox
 *******************************/
@@ -10581,16 +10483,6 @@ a.ui.teal.label:hover:before {
   font-size: 1.5em;
 }
 
-/*
- * # Semantic - Dimmer
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Dimmer
 *******************************/
@@ -10740,16 +10632,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   background-color: rgba(255, 255, 255, 0.85);
 }
 
-/*
- * # Semantic - Dropdown
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Dropdown
 *******************************/
@@ -10784,7 +10666,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   text-shadow: none;
   -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
   -webkit-transition: opacity 0.2s ease;
   -moz-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
@@ -10828,7 +10710,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   top: 0% !important;
   left: 100% !important;
   margin: 0em !important;
-  border-radius: 0 0.325em 0.325em 0em !important;
+  border-radius: 0 0.225em 0.225em 0em !important;
 }
 .ui.dropdown .menu .menu:after {
   display: none;
@@ -11044,7 +10926,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   overflow-y: auto;
   -webkit-box-shadow: 0px 1px 0px 1px #E0E0E0;
   box-shadow: 0px 1px 0px 1px #E0E0E0;
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
 }
 .ui.selection.dropdown .menu:after,
 .ui.selection.dropdown .menu:before {
@@ -11071,7 +10953,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.selection.dropdown.error .menu {
   -webkit-box-shadow: 0px 1px 0px 1px #E7BEBE;
   box-shadow: 0px 1px 0px 1px #E7BEBE;
-  border-radius: 0px 0px 0.325em 0.325em;
+  border-radius: 0px 0px 0.225em 0.225em;
 }
 /* Menu Item Active */
 .ui.selection.dropdown.error .menu .active.item {
@@ -11142,7 +11024,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.inline.dropdown .menu {
   cursor: auto;
   margin-top: 0.25em;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 /*--------------
     Floating
@@ -11151,7 +11033,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   left: 0;
   right: auto;
   margin-top: 0.5em !important;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 /*--------------
      Pointing
@@ -11159,7 +11041,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
 .ui.pointing.dropdown .menu {
   top: 100%;
   margin-top: 0.75em;
-  border-radius: 0.325em;
+  border-radius: 0.225em;
 }
 .ui.pointing.dropdown .menu:after {
   display: block;
@@ -11257,16 +11139,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
       transform: rotate(135deg);
 }
 
-/*
- * # Semantic - Modal
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Modal
 *******************************/
@@ -11314,7 +11186,7 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   padding: 1.5rem 2rem;
   font-size: 1.6em;
   font-weight: bold;
-  border-radius: 0.325em 0.325em 0px 0px;
+  border-radius: 0.225em 0.225em 0px 0px;
 }
 /*--------------
      Content
@@ -11510,16 +11382,6 @@ body.ui.dimmed.dimmable > :not(.dimmer){
   }
 }
 
-/*
- * # Semantic - Nag
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Nag
 *******************************/
@@ -11628,17 +11490,6 @@ a.ui.nag {
 .ui.nags .nag {
   border-radius: 0px;
 }
-
-/*
- * # Semantic - Popup
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Popup
 *******************************/
@@ -11841,16 +11692,6 @@ a.ui.nag {
   box-shadow: none;
 }
 
-/*
- * # Semantic - Rating
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            Rating
 *******************************/
@@ -11971,16 +11812,6 @@ a.ui.nag {
   vertical-align: middle;
 }
 
-/*
- * # Semantic - Search
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
              Search
 *******************************/
@@ -12181,16 +12012,6 @@ a.ui.nag {
   font-size: 11px;
 }
 
-/*
- * # Semantic - Shape
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
               Shape
 *******************************/
@@ -12318,16 +12139,6 @@ a.ui.nag {
   display: block;
 }
 
-/*
- * # Semantic - Sidebar
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Sidebar
 *******************************/
@@ -12505,16 +12316,6 @@ body.pushed.scrolling.ui.dimmable {
   margin-top: -40px !important;
 }
 
-/*
- * # Semantic - Tab
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
            UI Tabs
 *******************************/
@@ -13787,16 +13588,6 @@ body.pushed.scrolling.ui.dimmable {
   }
 }
 
-/*
- * # Semantic - Video
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- */
 /*******************************
             Video
 *******************************/
@@ -13866,20 +13657,6 @@ body.pushed.scrolling.ui.dimmable {
   display: block;
 }
 
-/*
- * # Semantic Comment View
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 17 2014
- */
-/*******************************
-            Standard
-*******************************/
 /*--------------
     Comments
 ---------------*/
@@ -13975,7 +13752,7 @@ body.pushed.scrolling.ui.dimmable {
   max-width: 40em;
 }
 .ui.comments .reply.form textarea {
-  height: 12em;
+  height: 8em;
 }
 /*--------------------
     Nested Comments
@@ -14168,17 +13945,6 @@ body.pushed.scrolling.ui.dimmable {
   padding: 0.25em 0.5em;
 }
 
-/*
- * # Semantic Item View
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 17 2014
- */
 /*******************************
             Standard
 *******************************/
@@ -14215,7 +13981,6 @@ body.pushed.scrolling.ui.dimmable {
   width: 316px;
   min-height: 375px;
   margin: 0em 0.5em 2.5em;
-  padding: 0em;
   background-color: #FFFFFF;
   line-height: 1.2;
   font-size: 1em;
@@ -14395,7 +14160,7 @@ body.pushed.scrolling.ui.dimmable {
   border-bottom-color: #00B5AD !important;
 }
 .ui.items .item:nth-of-type(6n+6):hover {
-  border-bottom-color: #171f43 !important;
+  border-bottom-color: #202d62 !important;
 }
 /*******************************
            Variations
@@ -14725,17 +14490,6 @@ body.pushed.scrolling.ui.dimmable {
   clear: left;
 }
 
-/*
- * # Semantic List - Flat
- * http://github.com/jlukic/semantic-ui/
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: April 26 2014
- */
 /*******************************
             List
 *******************************/
@@ -15270,16 +15024,6 @@ ol.ui.horizontal.list li:before,
   font-size: 1.5rem;
 }
 
-/*
- * # Statistic
- *
- *
- * Copyright 2014 Contributors
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- *
- * Released: Aug 20, 2014
- */
 /*******************************
            Statistic
 *******************************/
