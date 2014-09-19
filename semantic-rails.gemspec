@@ -5,8 +5,8 @@ require "semantic-rails/version"
 Gem::Specification.new do |s|
   s.name        = "semantic-rails"
   s.version     = Semanticgs::Rails::VERSION
-  s.authors     = ['lijia.tong']
-  s.email       = ['lijia.tong@foxmail.com']
+  s.authors     = ['lijia.tong', 'keithorbit']
+  s.email       = ['lijia.tong@foxmail.com', 'keithskyey@gmail.com']
   s.homepage    = "https://github.com/user-tony/semantic-rails"
   s.summary     = %q{A simple asset gem bundling up semantic}
   s.description = %q{A simple asset gem bundling up the scss}
