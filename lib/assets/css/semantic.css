@@ -5407,9 +5407,8 @@ h5.ui.header {
 }
 /* makes the font 33% larger relative to the icon container */
 i.fa-lg {
-	font-size: 1.33333333em;
+	font-size: 1.5em;
 	line-height: 0.75em;
-	vertical-align: -15%;
 }
 i.fa-2x {
 	font-size: 2em;
@@ -7282,31 +7281,7 @@ i.inverted.teal.fa {
   background-color: #00B5AD !important;
   color: #FFFFFF !important;
 }
-/*-------------------
-        Sizes
---------------------*/
-i.small.fa {
-  font-size: 0.875em;
-}
-i.fa {
-  font-size: 1em;
-}
-i.large.fa {
-  font-size: 1.5em;
-  vertical-align: middle;
-}
-i.big.fa {
-  font-size: 2em;
-  vertical-align: middle;
-}
-i.huge.fa {
-  font-size: 4em;
-  vertical-align: middle;
-}
-i.massive.fa {
-  font-size: 8em;
-  vertical-align: middle;
-}
+
 
 /*******************************
              Image
