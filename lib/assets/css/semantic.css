@@ -1744,10 +1744,10 @@ body > .ui.grid {
      Active
 ---------------*/
 .ui.menu .active.item {
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.95);
-  -webkit-box-shadow: 0em 0.2em 0em inset;
-  box-shadow: 0em 0.2em 0em inset;
+  -webkit-box-shadow: 0em -0.2em 0em inset;
+  box-shadow: 0em -0.2em 0em inset;
 }
 .ui.vertical.menu .active.item {
   border-radius: 0em;
